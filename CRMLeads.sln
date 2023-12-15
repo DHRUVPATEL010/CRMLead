@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMLeads", "CRMLeads.csproj", "{376E768F-3CB4-4DA1-B70D-A4426623E88D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{376E768F-3CB4-4DA1-B70D-A4426623E88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376E768F-3CB4-4DA1-B70D-A4426623E88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376E768F-3CB4-4DA1-B70D-A4426623E88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376E768F-3CB4-4DA1-B70D-A4426623E88D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99D4819A-C0EF-4561-8291-A0FEA9992E7C}
+	EndGlobalSection
+EndGlobal
