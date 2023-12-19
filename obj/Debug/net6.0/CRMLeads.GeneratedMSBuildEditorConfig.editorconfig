@@ -30,6 +30,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dhruv.patel/Desktop/CRMLeads/Views/Leads/AddNewLead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZHNcQWRkTmV3TGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhruv.patel/Desktop/CRMLeads/Views/Leads/DeleteLead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZHNcRGVsZXRlTGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dhruv.patel/Desktop/CRMLeads/Views/Leads/EditLead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZHNcRWRpdExlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dhruv.patel/Desktop/CRMLeads/Views/Leads/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhZHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

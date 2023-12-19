@@ -1,0 +1,67 @@
+﻿
+
+@model CRMLeads.Models.LeadsEntity
+
+@{
+    ViewData["Title"] = "AddNewLead";
+}
+
+<h1>Delete Lead Details</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DeleteLeadDetails">
+            <input asp-for="Id" hidden />
+          
+            <div class="form-group">
+                <label asp-for="LeadDate" class="control-label"></label>
+                <input asp-for="LeadDate" class="form-control" readonly/>
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" readonly/>
+        
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailAddress" class="control-label"></label>
+                <input asp-for="EmailAddress" class="form-control" readonly/>
+               
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobile" class="control-label"></label>
+                <input asp-for="Mobile" class="form-control" readonly/>
+ 
+            </div>
+            <div class="form-group">
+                <label asp-for="LeadSource" class="control-label"></label>
+                <input asp-for="LeadSource" class="form-control" readonly/>
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="LeadStatus" class="control-label"></label>
+                <input asp-for="LeadStatus" class="form-control" readonly/>
+               
+            </div>
+            <div class="form-group">
+                <label asp-for="NextFollowUpDate" class="control-label"></label>
+                <input asp-for="NextFollowUpDate" class="form-control" readonly/>
+           
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-primary" />
+                <a asp-action="DeleteLead" class="btn btn-warning">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
